@@ -1,0 +1,16 @@
+var message="hi";
+console.log(message);
+function practice() {
+  var arr=[0,1,2,3,4,5];
+  for(var i=0;i<arr.length;i++) {
+     for(var j=i+1;j<arr.length;j++) {
+         if(arr[j]-arr[i]==1){
+           console.log(arr[i],arr[j]);
+         }
+     }
+  }
+}
+practice();
+
+
+
